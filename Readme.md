@@ -17,15 +17,17 @@ Zip two or more arrays together
 ```js
 var zip = require('@f/zip')
 
+zip([1, 2], [3, 4])         // -> [[1, 3], [2, 4]]
+zip([1, 2], [3, 4], [5, 6]) // -> [[1, 3, 5], [2, 4, 6]]
 ```
 
 ## API
 
-### zip(arg)
+### zip(...arrays)
 
-- `arg` -
+- `arrays` - The arrays to zip together
 
-**Returns:**
+**Returns:** The zipped arrays
 
 ## License
 
